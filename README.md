@@ -2,22 +2,26 @@
 ## Daphney Dorvelus
 ### Projet cours linux (oct - nov 2018)
 
+#### Objectifs de ce projet 
 Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git). 
-Le fichier "Consignes.md" sur le github du professeur détail les différentes étapes.
+Le fichier "Consignes.md" sur le github du professeur détaille les différentes étapes.
 
 1- En premier lieu : Forker le dêpot dans notre compte github
-Forker un dêpot github consiste à copier un . Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallut nous rendre sur le compte github du professeur et ensuite cliquer sur "Fork". Le dêpot est tout-de-suite copié dans notre repo. 
+Forker un dêpot github consiste à le copier dans son compte personnel. Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallu nous rendre sur le compte github du professeur et ensuite cliquer sur "Fork". Le dêpot est tout de suite copié dans notre repo. 
  
 2- Cloner ce dêpot en local : 
 Pour cloner un dêpot en local, il faut utiliser le code :  `git clone <<chemin du repo distant>>`
 qu'on retrouve dans le répertoire distant en cliquant sur "clone or download".
 
 3- Créer un fichier :
-On crèe un nouveau script avec le code **vim**  
+On crée un nouveau script avec le code **vim**  
 
 `vim fich_semaine_dernière.sh`
 
-Ce script nous permettra lors de son exécution de souhaiter le bienvenue à l'utilisateur et de lui demander le chemin du répertoire qu'il souhaite consulter. Pour executer ce code, il faut faire un **bash** du fichier `fich_semaine_dernière.sh`
+Ce script nous permettra lors de son exécution de souhaiter le bienvenue à l'utilisateur et de lui demander le chemin du répertoire qu'il souhaite consulter. 
+              * 
+
+Pour exécuter ce code, il faut faire un **bash** du fichier `fich_semaine_dernière.sh`
  
 `bash fich_semaine_dernière.sh`
 
@@ -36,7 +40,6 @@ Afin de commiter le fichier, il nous faut d'abord :
 `git commit -m "ajout fich_semaine_dernière.sh dans le dêpot local" `
     
 Après le commit, il faut pousser toutes les modifications dans le répertoire distant en utilisant un **git push**
-
 `git push -u origin master`
 
 5- Créer une nouvelle branche : 
@@ -81,11 +84,11 @@ Pour merger les deux branches en local, il faut faire un **git merge**
 `git merge new` 
   
 Cela nous permet de fusionner les modifications réalisées sur la nouvelle branche avec la branche master. 
-A noter que, avant de merger les deux branches, il faut se replacer sur la branche master en faisnt un git checkout master. 
+A noter que, avant de merger les deux branches, il faut se replacer sur la branche master en faisant un git checkout master. 
 
 10- Supprimer "Consignes.md" en local : 
 Pour supprimer un fichier, il faut faire un **rm -rf** du fichier.
 
 `rm -rf Consignes.md`
   
-On pousse ces modifications dans le repo distant en faisant un **git add**, un **git commit** puis un **git push**
+On pousse ces modifications dans le repo distant en faisant un **git commit** puis un **git push**
