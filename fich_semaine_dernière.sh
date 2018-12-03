@@ -9,8 +9,5 @@ read -p "Quel répértoire souhaitez-vous consulter?:" Repert
 echo "Vous avez demandé le : $Repert."
 echo "Merci $nom! Bon travail!"
 
-
-
-
-
-
+#Trouver les fichiers mise à jour dans le répertoire depuis -7 de jours.
+find -type f -mtime -7
