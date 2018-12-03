@@ -3,7 +3,7 @@
 ### Projet cours linux (oct - nov 2018)
 
 #### Objectifs de ce projet 
-Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git). Plus spécifiquement, il s'agit dans ce projet d'aider l'utilisateur à avoir accès à un répertoire souhaité et 
+Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git). 
 
 
 1- En premier lieu : Forker le dêpot dans notre compte github
