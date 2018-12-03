@@ -9,13 +9,11 @@ Le fichier "Consignes.md" sur le github du professuer détail les différentes �
 Forker un dêpot github consiste à copier un . Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallut nous rendre sur le compte github du professeur et ensuite cliquer sur "Fork". Le dêpot est tout-de-suite copié dans notre repo. 
  
 2- Cloner ce dêpot en local : 
-Pour cloner un dêpot en local, il faut utiliser le code : 
-     #### git clone <<lien URL>>
+Pour cloner un dêpot en local, il faut utiliser le code :   #### git clone <<lien URL>>
 qu'on retrouve dans le répertoire distant en cliquant sur "cloneor download".
 
 3- Créer un fichier :
-On crèe un nouveau script avec le code **vim**  
-     #### vim fich_semaine_dernière.sh
+On crèe un nouveau script avec le code **vim**    #### vim fich_semaine_dernière.sh
 
 Ce script nous permettra lors de son exécution de souhaiter le bienvenue à l'utilisateur et de lui demander lenom du répertoire qu'il souhaite utiliser. Pour executer ce code, il faut faire un **bash** du script
     #### bash fich_semaine_dernière.sh
