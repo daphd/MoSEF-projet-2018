@@ -56,12 +56,13 @@ Dans cette partie, on souhaite modifier le script dans la nouvelle branche puis 
 
  `$Repert find -type f -mtime -7`
  
- ensuite on fera un **bash** du fichier pour lancer le code. 
- 
 * On peut aussi utiliser **echo** en tapant directement dans le code dans le console pour modifier le fichier
 
   `echo "find -type f -mtime -7" >> fich_semaine_dernière.sh`
-
+ ensuite on fera un **bash** du fichier nous permettra pour d'éxecuter le code et d'afficher les fichiers qui ont été modifiés.
+ 
+ A noter que pour afficher les fichiers les plus récents, on peut faire une `sudo updatedb`
+ 
 7-Pousser les changements dans le repo distant :
 On utilise un **git push**
 
