@@ -3,11 +3,11 @@
 ### Projet cours linux (oct - nov 2018)
 
 #### Objectifs de ce projet 
-Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git). 
-Le fichier "Consignes.md" sur le github du professeur détaille les différentes étapes.
+Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git). Plus spécifiquement, il s'agit dans ce projet d'aider l'utilisateur à avoir accès à un répertoire souhaité et 
+
 
 1- En premier lieu : Forker le dêpot dans notre compte github
-Forker un dêpot github consiste à le copier dans son compte personnel. Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallu nous rendre sur le compte github du professeur et ensuite cliquer sur "Fork". Le dêpot est tout de suite copié dans notre repo. 
+Forker un dêpot github consiste à le copier dans son compte personnel. Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallu nous rendre sur le dêpot source (compte github du professeur) et ensuite cliquer sur "Fork". Le dêpot est tout de suite copié dans notre repo. 
  
 2- Cloner ce dêpot en local : 
 Pour cloner un dêpot en local, il faut utiliser le code :  `git clone <<chemin du repo distant>>`
@@ -26,7 +26,7 @@ Pour exécuter ce code, il faut faire un **bash** du fichier `fich_semaine_derni
 `bash fich_semaine_dernière.sh`
 
 4- Commiter le fichier : 
-Afin de commiter le fichier, il nous faut d'abord : 
+Afin de commiter le fichier, il faut : 
 * Initialiser le repo 
 
 `git init`
