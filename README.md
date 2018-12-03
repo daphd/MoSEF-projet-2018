@@ -5,7 +5,7 @@
 #### Objectifs de ce projet 
 Il s'agit d'un projet construit en 8 étapes afin de mettre en pratique nos connaissances acquises durant le cours de linux (principalement en git, du langage Markdown, et de Github).
 
-##### Déroulement 
+#### Déroulement 
 
 1- En premier lieu : Forker le dêpot dans notre compte github
 Forker un dêpot github consiste à le copier dans son compte personnel. Ainsi, pour forker le dêpot avec les consignes du projet, il nous a fallu nous rendre sur le dêpot source (compte github du professeur) et ensuite cliquer sur "Fork". Le dêpot est tout de suite copié dans notre repo. 
